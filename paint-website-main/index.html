@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint-Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <p class="paint-Website-heading">Paint-Website</p>
+    </div>
+    <div id="container">
+        <div id="options-section">
+
+            <img src="Assets/artist-brush_72670.png" alt="" id="brush-icon" class="tools">
+            <p>brush</p>
+
+
+            <img src="Assets/eraser_7815638.png" alt="" id="eraser-icon" class="tools">
+            <p>eraser</p>
+
+            <div id="colors-container">
+                <p id="colors-heading">colors</p>
+                <button class="colors" id="color-black"></button>
+                <button class="colors" id="color-blue"></button>
+                <button class="colors" id="color-red"></button>
+                <button class="colors" id="color-yellow"></button>
+                <button class="colors" id="color-green"></button>
+            </div>
+
+        </div>
+        <canvas id="canvas-section" width="800" height="600"></canvas>
+
+    </div>
+    <script src="paint.js"></script>
+</body>
+
+</html>
